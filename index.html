@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SimpleQRStudio</title>
+  <meta name="description" content="SimpleQRStudio is a clean, practical QR code studio for creating QR codes for links, contacts, Wi-Fi, events, and more." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img src="images/app-icon.png" alt="SimpleQRStudio icon" />
+      <span>SimpleQRStudio</span>
+    </a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Simple. Clean. Useful.</p>
+        <h1>Create QR codes without the clutter.</h1>
+        <p class="lead">SimpleQRStudio helps you create practical QR codes for websites, contact cards, Wi-Fi access, calendar events, and everyday sharing.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#download">Coming to the App Store</a>
+          <a class="button secondary" href="support.html">Get Support</a>
+        </div>
+      </div>
+      <div class="phone-frame">
+        <img src="images/screenshot1.png" alt="SimpleQRStudio app screenshot" />
+      </div>
+    </section>
+
+    <section class="features" aria-labelledby="features-title">
+      <p class="eyebrow center">Features</p>
+      <h2 id="features-title">Designed for the QR codes people actually use.</h2>
+      <div class="feature-grid">
+        <article>
+          <h3>Website QR Codes</h3>
+          <p>Create QR codes for web links and share them quickly.</p>
+        </article>
+        <article>
+          <h3>Contact Cards</h3>
+          <p>Generate vCard QR codes for business cards, events, and networking.</p>
+        </article>
+        <article>
+          <h3>Wi-Fi Sharing</h3>
+          <p>Make it easier for guests, customers, or coworkers to connect to Wi-Fi.</p>
+        </article>
+        <article>
+          <h3>Calendar Events</h3>
+          <p>Create QR codes that help people add events to their calendar.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="screenshots" aria-labelledby="screenshots-title">
+      <p class="eyebrow center">Preview</p>
+      <h2 id="screenshots-title">A focused app for fast QR creation.</h2>
+      <div class="screenshot-grid">
+        <img src="images/screenshot1.png" alt="SimpleQRStudio screenshot 1" />
+        <img src="images/screenshot2.png" alt="SimpleQRStudio screenshot 2" />
+        <img src="images/screenshot3.png" alt="SimpleQRStudio screenshot 3" />
+        <img src="images/screenshot4.png" alt="SimpleQRStudio screenshot 4" />
+      </div>
+    </section>
+
+    <section class="privacy-callout">
+      <div>
+        <p class="eyebrow">Privacy first</p>
+        <h2>Your QR code data stays simple.</h2>
+        <p>SimpleQRStudio is designed to create QR codes without unnecessary account setup or complicated tracking.</p>
+      </div>
+      <a class="button secondary" href="privacy.html">Read Privacy Policy</a>
+    </section>
+
+    <section id="download" class="download">
+      <h2>Coming soon to the App Store</h2>
+      <p>Once SimpleQRStudio is available, this section can link directly to the App Store listing.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> SimpleQRStudio. All rights reserved.</p>
+    <p><a href="support.html">Support</a> · <a href="privacy.html">Privacy Policy</a></p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
